@@ -1,61 +1,29 @@
 //
-//  PatternModel.swift
+//  InfoTableViewController.swift
 //  Patterns App
 //
-//  Created by Casey Gower on 11/27/17.
+//  Created by Casey Gower on 12/4/17.
 //  Copyright © 2017 Casey Gower. All rights reserved.
 //
 
 import UIKit
 
-class PatternModel: UITableViewController {
+class InfoTableViewController: UITableViewController
+{
+    @IBOutlet weak var patternTopViewImage: UIImageView!
     
-    var patternName: String?
-    var length: Int?
-    var ratio: Double?
-    var volume: Double?
-    var patternImageTop: UIImage
-    var patternImageComposite: UIImage
-    
-    
-    
-    public var title : String? {
-        get {
-            return patternName
-        }
-    }
-    
-    public var subtitle: Int? {
-        get {
-            return length
-        }
-    }
-    
-     init( name: String, length: Int, topImage: UIImage, compositeImage: UIImage, ratio: Double, volume: Double) {
-        
-        self.patternName = name
-        self.length = length
-        self.patternImageTop = topImage
-        self.patternImageComposite = compositeImage
-        self.ratio = ratio
-        self.volume = volume
-        
-        
-    }
-    
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-    
+    var notesData: [Note]?
+    var patternData: [Pattern]?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Uncomment the following line to preserve selection between presentations
-         self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-         self.navigationItem.rightBarButtonItem = self.editButtonItem
+        patternData = DataSet.sampleData
+//        notesData = DataSetNotes.sampleData
+        
+    }
+    
+    func setUpStaticContent()  {
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -67,12 +35,13 @@ class PatternModel: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return (notesData?.count)!
+        
     }
 
     /*
