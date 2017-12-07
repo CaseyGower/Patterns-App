@@ -11,20 +11,32 @@ import UIKit
 class InfoTableViewController: UITableViewController
 {
     @IBOutlet weak var patternTopViewImage: UIImageView!
+    //Static Cells
+    @IBOutlet weak var lengthCell: UITableViewCell!
+    @IBOutlet weak var volumeCell: UITableViewCell!
+    @IBOutlet weak var ratioCell: UITableViewCell!
+    @IBOutlet weak var nameCell: UITableViewCell!
+    
     
     var notesData: [Note]?
     var patternData: [Pattern]?
 
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         patternData = DataSet.sampleData
-//        notesData = DataSetNotes.sampleData
+        notesData = DataSetNotes.sampleData
+        
+        patternTopViewImage.image = patternData![1].patternImageTop
+        lengthCell.textLabel?.text = patternData![1].length
+        volumeCell.textLabel?.text = patternData![1].volume
+        nameCell.textLabel?.text = patternData![1].name
+        ratioCell.textLabel?.text = patternData![1].ratio
         
     }
     
-    func setUpStaticContent()  {
-        
-    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -44,15 +56,32 @@ class InfoTableViewController: UITableViewController
         
     }
 
-    /*
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "NotesCells", for: indexPath)
+        
 
         // Configure the cell...
-
+        if let noteCell = cell as? NotesTableViewControllerCell {
+            if let therealdata = notesData {
+                let note = therealdata[indexPath.row]
+                
+                
+                
+                if let date = note.date {
+                    let formatter = DateFormatter()
+                    formatter.dateFormat = "dd-MMM-yyyy"
+                    let noteDateAsString = formatter.string(from: date)
+                    noteCell.notesCellDetail.text = noteDateAsString
+                }
+                
+                noteCell.notesCellTitle?.text = note.title
+                
+            }
+            }
         return cell
     }
-    */
+    
 
     /*
     // Override to support conditional editing of the table view.

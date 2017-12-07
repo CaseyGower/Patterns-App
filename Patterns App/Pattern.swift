@@ -12,8 +12,8 @@ class Pattern{
     
     var name: String?
     var length: String?
-    var ratio: Double?
-    var volume: Double?
+    var ratio: String?
+    var volume: String?
     var patternImageTop: UIImage
     var patternImageComposite: UIImage
     
@@ -31,7 +31,7 @@ class Pattern{
 //        }
 //    }
 
-      init( name: String, length: String, topImage: UIImage, compositeImage: UIImage, ratio: Double, volume: Double) {
+      init( name: String, length: String, topImage: UIImage, compositeImage: UIImage, ratio: String, volume: String) {
         
         self.name = name
         self.length = length
