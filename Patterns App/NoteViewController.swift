@@ -10,12 +10,20 @@ import UIKit
 
 class NoteViewController: UIViewController {
 
+    @IBOutlet weak var noteTitle: UITextField!
+    @IBOutlet weak var noteText: UITextView!
+    
+    var note: Note?
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        if let note = note{
+            noteText.text = note.text
+            noteTitle.text = note.title
+        
     }
-
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

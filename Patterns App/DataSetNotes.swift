@@ -11,9 +11,9 @@ import UIKit
 class DataSetNotes{
 
         static var sampleData = [
+            Note(title: "Savannah Bowling Center", date: Date.init(), text: "Notes ..."),
             Note(title: "Test", date: Date.init(), text: "Notes ..."),
-            Note(title: "Test", date: Date.init(), text: "Notes ..."),
-            Note(title: "Test", date: Date.init(), text: "Notes ..."),
+            Note(title: "Jackson ", date: Date.init(), text: "Notes ..."),
             Note(title: "Test", date: Date.init(), text: "Notes ..."),
             Note(title: "Test", date: Date.init(), text: "Notes ..."),
             Note(title: "Test", date: Date.init(), text: "Notes ..."),
