@@ -18,6 +18,7 @@ class InfoTableViewController: UITableViewController
     @IBOutlet weak var volumeLabel: UILabel!
     @IBOutlet weak var ratioLabel: UILabel!
     
+    @IBOutlet weak var navBarTitle: UINavigationItem!
     var notesData: [Note]?
     var pattern: Pattern? 
     
@@ -32,6 +33,8 @@ class InfoTableViewController: UITableViewController
             volumeLabel.text = pattern?.volume
             nameLabel.text = pattern?.name
             ratioLabel.text = pattern?.ratio
+        navBarTitle.title = pattern?.name
+        
         
     }
     

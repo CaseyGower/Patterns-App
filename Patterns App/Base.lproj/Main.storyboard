@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Home Table View Controller-->
+        <!--Patterns-->
         <scene sceneID="Cre-iD-u6E">
             <objects>
                 <tableViewController id="fEJ-uh-Pde" customClass="HomeTableViewController" customModule="Patterns_App" customModuleProvider="target" sceneMemberID="viewController">
@@ -59,7 +59,7 @@
                             <outlet property="delegate" destination="fEJ-uh-Pde" id="CFE-q4-SzX"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="UCi-h9-Ysx"/>
+                    <navigationItem key="navigationItem" title="Patterns" id="IEs-Ob-Yal"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="searchDisplayController" destination="AfF-7v-5Ov" id="daJ-9V-pUq"/>
@@ -77,7 +77,7 @@
             </objects>
             <point key="canvasLocation" x="288.80000000000001" y="24.7376311844078"/>
         </scene>
-        <!--Info Table View Controller-->
+        <!--Title-->
         <scene sceneID="gmM-yt-nfS">
             <objects>
                 <tableViewController id="f3m-gv-gKk" customClass="InfoTableViewController" customModule="Patterns_App" customModuleProvider="target" sceneMemberID="viewController">
@@ -188,10 +188,18 @@
                             <outlet property="delegate" destination="f3m-gv-gKk" id="AZR-Mm-dfi"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" title="Title" id="qkc-At-Nfu">
+                        <barButtonItem key="rightBarButtonItem" title="+ Note" id="6eG-nj-jwK">
+                            <connections>
+                                <segue destination="tGk-Lw-4Pt" kind="show" identifier="newNote" id="jUg-sj-dhq"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <size key="freeformSize" width="325" height="1200"/>
                     <connections>
                         <outlet property="lengthLabel" destination="tbE-RU-bIX" id="5wz-xY-rVt"/>
                         <outlet property="nameLabel" destination="6yY-U1-lsS" id="xDL-7k-XMo"/>
+                        <outlet property="navBarTitle" destination="qkc-At-Nfu" id="tgd-Ls-V09"/>
                         <outlet property="patternTopViewImage" destination="Ps8-fc-Wwn" id="urV-qD-II2"/>
                         <outlet property="ratioLabel" destination="Wgz-Ts-ASo" id="cFW-DU-JBa"/>
                         <outlet property="volumeLabel" destination="ugC-TC-xW6" id="IIv-sc-b15"/>
@@ -201,7 +209,7 @@
             </objects>
             <point key="canvasLocation" x="1064.8" y="20.689655172413794"/>
         </scene>
-        <!--Note View Controller-->
+        <!--Title-->
         <scene sceneID="V5K-JK-uBQ">
             <objects>
                 <viewController id="tGk-Lw-4Pt" customClass="NoteViewController" customModule="Patterns_App" customModuleProvider="target" sceneMemberID="viewController">
@@ -236,8 +244,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="JSb-dF-RNK"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Title" id="bkX-v1-5ay"/>
                     <size key="freeformSize" width="325" height="667"/>
                     <connections>
+                        <outlet property="navBarTitle" destination="bkX-v1-5ay" id="p2J-2w-ljh"/>
                         <outlet property="noteText" destination="e7u-Ly-Qtl" id="08i-PR-NMJ"/>
                         <outlet property="noteTitle" destination="7k5-PZ-oVz" id="Ap3-Uq-5qR"/>
                     </connections>
@@ -268,4 +278,7 @@
     <resources>
         <image name="BOURBON STREET" width="604" height="1496"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="jUg-sj-dhq"/>
+    </inferredMetricsTieBreakers>
 </document>

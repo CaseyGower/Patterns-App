@@ -12,6 +12,7 @@ class NoteViewController: UIViewController {
 
     @IBOutlet weak var noteTitle: UITextField!
     @IBOutlet weak var noteText: UITextView!
+    @IBOutlet weak var navBarTitle: UINavigationItem!
     
     var note: Note?
     var scrollView: UIScrollView!
@@ -22,6 +23,7 @@ class NoteViewController: UIViewController {
         if let note = note{
             noteText.text = note.text
             noteTitle.text = note.title
+            navBarTitle.title = note.title
     }
         scrollView = UIScrollView(frame: view.bounds)
         
