@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Patterns App/HomeTableViewController.swift"
-            timestampString = "534380180.859711"
+            timestampString = "534398973.827562"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "61"
@@ -26,7 +26,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Patterns App/InfoTableViewController.swift"
-            timestampString = "534380833.031842"
+            timestampString = "534398973.827658"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "53"
@@ -42,12 +42,153 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Patterns App/InfoTableViewController.swift"
-            timestampString = "534380833.032208"
+            timestampString = "534398973.82827"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "60"
             endingLineNumber = "60"
             landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Patterns App/PatternInfoUIViewController.swift"
+            timestampString = "534398973.828776"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Patterns App/InfoTableViewController.swift"
+            timestampString = "534398973.828858"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "InfoTableViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Patterns_App.InfoTableViewController.pattern.getter : Swift.Optional&lt;Patterns_App.Pattern&gt;"
+                  moduleName = "Patterns App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Casey/Google%20Drive/School/Xcode%20Projects/PatternsApp/Patterns%20App/Patterns%20App/InfoTableViewController.swift"
+                  timestampString = "534396760.490479"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "105">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Patterns_App.InfoTableViewController.pattern.setter : Swift.Optional&lt;Patterns_App.Pattern&gt;"
+                  moduleName = "Patterns App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Casey/Google%20Drive/School/Xcode%20Projects/PatternsApp/Patterns%20App/Patterns%20App/InfoTableViewController.swift"
+                  timestampString = "534396760.492415"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "110">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Patterns_App.InfoTableViewController.init(style: __C.UITableViewStyle) -&gt; Patterns_App.InfoTableViewController"
+                  moduleName = "Patterns App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Casey/Google%20Drive/School/Xcode%20Projects/PatternsApp/Patterns%20App/Patterns%20App/InfoTableViewController.swift"
+                  timestampString = "534396760.494291"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "836">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Patterns_App.InfoTableViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Patterns_App.InfoTableViewController"
+                  moduleName = "Patterns App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Casey/Google%20Drive/School/Xcode%20Projects/PatternsApp/Patterns%20App/Patterns%20App/InfoTableViewController.swift"
+                  timestampString = "534396760.495934"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "852">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Patterns_App.InfoTableViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;Patterns_App.InfoTableViewController&gt;"
+                  moduleName = "Patterns App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Casey/Google%20Drive/School/Xcode%20Projects/PatternsApp/Patterns%20App/Patterns%20App/InfoTableViewController.swift"
+                  timestampString = "534396760.497383"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "740">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Patterns App/InfoTableViewController.swift"
+            timestampString = "534398973.82926"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Patterns App/InfoTableViewController.swift"
+            timestampString = "534398973.829657"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

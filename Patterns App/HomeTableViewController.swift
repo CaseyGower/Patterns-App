@@ -33,7 +33,7 @@ class HomeTableViewController: UITableViewController {
         } else {
             // Fallback on earlier versions
         }
-        searchController.searchBar.placeholder = "search staches"
+        searchController.searchBar.placeholder = "search patterns"
         searchController.obscuresBackgroundDuringPresentation = false
         definesPresentationContext = true
         searchController.searchResultsUpdater = self as? UISearchResultsUpdating

@@ -14,6 +14,7 @@ class NoteViewController: UIViewController {
     @IBOutlet weak var noteText: UITextView!
     
     var note: Note?
+    var scrollView: UIScrollView!
     
     
     override func viewDidLoad() {
@@ -21,8 +22,10 @@ class NoteViewController: UIViewController {
         if let note = note{
             noteText.text = note.text
             noteTitle.text = note.title
-        
     }
+        scrollView = UIScrollView(frame: view.bounds)
+        
+        
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

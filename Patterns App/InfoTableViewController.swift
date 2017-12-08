@@ -19,20 +19,20 @@ class InfoTableViewController: UITableViewController
     @IBOutlet weak var ratioLabel: UILabel!
     
     var notesData: [Note]?
-    var pattern: Pattern?
+    var pattern: Pattern? 
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         //pattern = DataSet.sampleData
         notesData = DataSetNotes.sampleData
-        if let pattern = pattern{
-            patternTopViewImage.image = pattern.patternImageTop
-            lengthLabel.text = pattern.length
-            volumeLabel.text = pattern.volume
-            nameLabel.text = pattern.name
-            ratioLabel.text = pattern.ratio
-        }
+        let pattern = self.pattern
+        patternTopViewImage.image = pattern?.patternImageTop
+            lengthLabel.text = pattern?.length
+            volumeLabel.text = pattern?.volume
+            nameLabel.text = pattern?.name
+            ratioLabel.text = pattern?.ratio
+        
     }
     
     

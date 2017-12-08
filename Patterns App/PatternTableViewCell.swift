@@ -15,6 +15,7 @@ class PatternTableViewCell: UITableViewCell {
     @IBOutlet weak var patternTitleLable: UILabel!
     
     @IBOutlet weak var patternImageThubnail: UIImageView!
+    
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 

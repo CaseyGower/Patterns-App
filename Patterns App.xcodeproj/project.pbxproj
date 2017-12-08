@@ -19,6 +19,7 @@
 		C929A6031FD5E6AF00AE5AB3 /* InfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C929A6021FD5E6AF00AE5AB3 /* InfoTableViewController.swift */; };
 		C93160491FCCAF490011FFEA /* Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93160481FCCAF490011FFEA /* Pattern.swift */; };
 		C931604B1FCCB3290011FFEA /* DataSetPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = C931604A1FCCB3290011FFEA /* DataSetPattern.swift */; };
+		C9D50FD51FDA134B0064C80C /* PatternInfoUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D50FD41FDA134B0064C80C /* PatternInfoUIViewController.swift */; };
 		C9FD6DEB1FD896EB002DA41F /* NotesTableViewControllerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FD6DEA1FD896EB002DA41F /* NotesTableViewControllerCell.swift */; };
 		C9FD6DED1FD89AC0002DA41F /* PatternTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FD6DEC1FD89AC0002DA41F /* PatternTableViewCell.swift */; };
 /* End PBXBuildFile section */
@@ -38,6 +39,7 @@
 		C929A6021FD5E6AF00AE5AB3 /* InfoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTableViewController.swift; sourceTree = "<group>"; };
 		C93160481FCCAF490011FFEA /* Pattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pattern.swift; sourceTree = "<group>"; };
 		C931604A1FCCB3290011FFEA /* DataSetPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSetPattern.swift; sourceTree = "<group>"; };
+		C9D50FD41FDA134B0064C80C /* PatternInfoUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternInfoUIViewController.swift; sourceTree = "<group>"; };
 		C9FD6DEA1FD896EB002DA41F /* NotesTableViewControllerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesTableViewControllerCell.swift; sourceTree = "<group>"; };
 		C9FD6DEC1FD89AC0002DA41F /* PatternTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,6 +89,7 @@
 				C929A5FE1FD5E20800AE5AB3 /* DataSetNotes.swift */,
 				C929A6001FD5E23A00AE5AB3 /* Note.swift */,
 				C9FD6DEA1FD896EB002DA41F /* NotesTableViewControllerCell.swift */,
+				C9D50FD41FDA134B0064C80C /* PatternInfoUIViewController.swift */,
 			);
 			path = "Patterns App";
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C929A6011FD5E23A00AE5AB3 /* Note.swift in Sources */,
+				C9D50FD51FDA134B0064C80C /* PatternInfoUIViewController.swift in Sources */,
 				C92711E51FB39FCE00387DB3 /* ViewController.swift in Sources */,
 				C93160491FCCAF490011FFEA /* Pattern.swift in Sources */,
 				C929A6031FD5E6AF00AE5AB3 /* InfoTableViewController.swift in Sources */,
